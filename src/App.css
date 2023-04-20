@@ -1,38 +1,97 @@
-.App {
-  text-align: center;
+*{
+    background-color: rgb(241, 244, 244);
+
+}
+.con{
+   
+    background-color: rgb(241, 244, 244);
+    
+ 
+}
+.containers{
+    background-color: rgb(241, 244, 244);
+    display: flex;
+    justify-content: flex-start;
+    height: 10vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.containers2{
+    display: flex;
+    justify-content: flex-end;
+}
+.btn{
+    background-color:blueviolet;
+    margin: 1vh;
+    margin-top: -50px;
+    border-radius: 3vh;
+    width: 25vh;
+    color: white;
+    
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.img1{
+    margin-top: 2vh;
+    margin-left: 2vw;
+    
+    width: 12vw;
+    height: 7vh;
+
+}
+.text{
+    background-color: rgb(241, 244, 244);
+    height: 10vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.origin{
+    border-radius: 30px;
+    margin: 30px;
+    background-color: rgb(241, 244, 244);
+    height: 5vw;
+    display: flex;
+    align-items: center;
+   justify-content: space-around;
+    
+   
+
+}
+.gap{
+    margin-left: -10vw;
+    background-color: rgb(241, 244, 244);
+}
+.services{
+    background-color: rgb(241, 244, 244);
+    display: flex;
+    justify-content: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+.cards2{
+    margin-top: 15px;
+   
+    display: flex;
+    justify-content: space-around;
+   
+
+}
+.card{
+    border-radius: 25px;
+    background-color: rgb(241, 244, 244);
+   
+   
 }
 
-.App-link {
-  color: #61dafb;
+
+
+
+
+/* footer */
+.img2{
+    margin-top: 1vw;
+    width: 100%;
+    height: 8vw;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
